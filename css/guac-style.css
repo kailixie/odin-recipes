@@ -1,0 +1,71 @@
+body {
+  background-color:lightgray;
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.multi-bg-avocado {
+  background: url(img/cool-avocado.jpg), url(img/cool-avocado.jpg);
+  background-repeat: repeat-y, repeat-y;
+  background-position: right, left;
+  background-size: 75px, 75px;
+  padding: -75px;
+  margin-bottom: -25px;
+  margin-top: -25px;
+}
+
+.intro {
+  background: rgb(180, 180, 180);
+  border: 2px solid rgb(0, 0, 0);
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.ingredients,
+.steps {
+  text-align: left;
+  background: rgb(180, 180, 180);
+  border: 2px solid rgb(0, 0, 0);
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+div {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: black;
+}
+
+img {
+  border-radius: 25px;
+  height: auto;
+  width: 300px;
+  display: inline;
+  border: 2px solid black;
+}
+
+h1 {
+    background-color:rgb(99, 99, 99);
+    color: whitesmoke;
+    font-weight: 800;
+    font-family: "Rock Salt", cursive;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 75px;
+}
+
+h3 {
+    color:rgb(46, 45, 45);
+    text-shadow:2px 2px 4px rgb(17, 146, 27);
+    font-weight: 100;
+    font-size: 18px;
+    font-family: "Rock Salt", Calibri, sans-serif;
+    display: inline-block;
+}
