@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(233, 201, 153);
+    margin: 50px auto;
+    font-family: Calibri, sans-serif;
+}
+
+.ingredients {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightpink;
+    border: 2px solid rgb(80, 55, 59);
+    border-radius: 5px;
+    column-gap: 10px;
+}
+
+.ingredients > * {
+    flex: 1;
+}
+
+h1 {
+    color: rgb(128, 97, 97);
+    font-size: 75px;
+    font-family: 'Rubik Iso', cursive;
+}
+
+img {
+    border-radius: 100%;
+    outline: 20px solid rgb(94, 74, 77);
+    padding: -50px;
+    margin: 0px 400px;
+}
+
+img:hover {
+    opacity: 50%;
+}
+
+ul {
+    list-style: circle;
+}
+
+.item {
+    font-weight: bold; 
+}
+
+.steps {
+    column-count: 4;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightpink;
+    border: 2px solid rgb(80, 55, 59);
+    border-radius: 5px;
+    column-gap: 10px;
+}
+
+ol {
+}
+
+.desc {
+    column-count: 2;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightpink;
+    border: 2px solid rgb(80, 55, 59);
+    border-radius: 5px;
+    column-gap: 10px;
+}
+
+.notes {
+    column-count: 1;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightpink;
+    border: 2px solid rgb(80, 55, 59);
+    border-radius: 5px;
+    column-gap: 10px;
+}
+
+h3 {
+    text-transform: uppercase;
+}
