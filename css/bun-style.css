@@ -15,7 +15,8 @@ body {
 }
 
 .ingredients > * {
-    flex: 1;
+    display: flex;
+    justify-content: space-around;
 }
 
 h1 {
